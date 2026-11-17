@@ -24,7 +24,7 @@ function App() {
       <h1>counter is: {count}</h1>
       <button onClick={()=> countDispatch({payload:5})}>click 5</button>
       <button onClick={()=> dispatch(add(1))}>add</button>
-      {/* <ReducerCounter /> */}
+      <ReducerCounter />
     </>
   )
 }
