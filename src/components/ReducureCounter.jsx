@@ -9,7 +9,7 @@ function ReducerCounter() {
     }
 
 
-    const [count, countDispatch] = useReducer(countReducer, 10)
+    const [count, countDispatch] = useReducer(countReducer, 30)
 
     return (
         <>
